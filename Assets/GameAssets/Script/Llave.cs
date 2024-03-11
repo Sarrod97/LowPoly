@@ -6,9 +6,14 @@ public class Llave : MonoBehaviour
 {
     // Para que rote la llave
     public float speed;
+    
 
     void Update()
     {
-        transform.Rotate(Vector3.up * Time.deltaTime * speed);    
+        transform.Rotate(Vector3.up * Time.deltaTime * speed);  
+
     }
+
+ 
 }
+
